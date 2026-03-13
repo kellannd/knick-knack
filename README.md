@@ -1,6 +1,6 @@
 # Project
 
-Demo Video:
+### [Demo Video](https://drive.google.com/file/d/1axpTKaqnR8BYewmdjNqS5WJwuBTJGhjf/view?usp=sharing)
 
 ### Chosen Locations
 The two locations I chose for this project were Koh Tao, Thailand (specifically Than Sadet-Ko Pha-ngan National Park) and Greece. I went to Koh Tao in January 2024 and was able to see a sea turtle while snorkling, which was one of the best parts of the trip for me as I have never seen a wild sea turtle that close. I went to Greece in the May 2025 with a goal of seeing as many temples and ancient ruins as possible, so I incorporated a temple along with some statues I saw while I was there.
@@ -17,6 +17,17 @@ I combined a mixture of blender created and assets taken from free online resour
 <img src="/screenshots/th_ss.png" height="500"/><br>
 <b>Screenshot from Unity</b>
 
+<img src="/screenshots/th_weather.png" height="500"/><br>
+<b>Weather component on the side of the cube. It calls the weather in the location from OpenWeather's API and prints it to the side of the cube.</b>
+
+<img src="/screenshots/th_datetime.png" height="500"/><br>
+<b>This component gets the current date and time at the location and updates every 30 seconds.</b>
+
+<img src="/screenshots/th_pic1.png" height="500"/><br>
+<b>This is one of the pictures on the back. This is the picture that appears when the cube is right side up.</b>
+
+<img src="/screenshots/th_pic2.png" height="500"/><br>
+<b>When flipped, the picture will change</b>
 
 ## Athens, Greece Knick-Knack
 I got the temple component from Poly Pizza and reused the water component to add water to the fountain inside of the partheon. I got the statues from a pack of ancient Greek city components to put in front of the partheon. I got the pottery from CG trader. I used the Rock Textures Asset from the Unity Asset store for the materials on most of the components. On the back of the component, I included a photo of the Partheon in Athens and when the box is flipped over, there is a photo of some of the iconic white dome churches in Santorini.
@@ -24,6 +35,18 @@ I got the temple component from Poly Pizza and reused the water component to add
 ### Screenshots
 <img src="/screenshots/gr_ss.png" height="500"/><br>
 <b>Screenshot from Unity</b>
+
+<img src="/screenshots/gr_weather.png" height="500"/><br>
+<b>Like above, this gets the current weather in Athens, Greece and displays it on the cube.</b>
+
+<img src="/screenshots/gr_datetime.png" height="500"/><br>
+<b>This gets the current date and time.</b>
+
+<img src="/screenshots/gr_pic1.png" height="500"/><br>
+<b>This is the picture that displays when the cube is right side up.</b>
+
+<img src="/screenshots/gr_pic2.png" height="500"/><br>
+<b>This is the picture that displays when the cube is flipped.</b>
 
 # Process
 This project was made in Unity, utilizing Vuforia for the AR functionality. Blender was used to create and modify components to use in the project.
@@ -52,6 +75,9 @@ Ancient Greek City Pack 33 GameReady Assets by PackDev https://www.turbosquid.co
 Rock Textures - 4k by Texture Haven https://assetstore.unity.com/packages/2d/textures-materials/rock-textures-4k-179128
 
 URP Stylized Water Shader - Proto Series by BitGem https://assetstore.unity.com/packages/vfx/shaders/urp-stylized-water-shader-proto-series-187485
+
+#### Audio
+Ocean Waves by DRAGON_STUDIO https://pixabay.com/sound-effects/nature-ocean-waves-376898/
 
 ### Tutorials
 #### Blender Tutorials
